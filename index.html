@@ -4,27 +4,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Day 02</title>
+    <title>HTML</title>
 </head>
 
 <body>
-    <h1><u>Welcome to the my Welsite</u></h1>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore voluptas odio consequuntur fugit. Eos sunt
-        placeat, repellat sint eligendi officiis cumque dolor magni? Eveniet voluptas natus dolores quasi, quo accusamus
-        laudantium, libero aliquid rerum, incidunt minus nemo dolorem saepe eaque.</p>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
 
+    <p>This is a normal paragraph tag.</p>
+
+    <p>
+        <b>Bold text</b><br>
+        <i>Italic text</i><br>
+        <u>Underlined text</u><br>
+        <mark>Highlighted text</mark><br>
+        <small>Small text</small><br>
+        <strong>Important text</strong><br>
+        <em>Emphasized text</em><br>
+        <del>Deleted text</del><br>
+        H<sub>2</sub>O subscript text<br>
+        X<sup>2</sup> superscript text
+    </p>
+
+    <p>Here is a <a href="https://www.google.com" target="_blank">link to Google</a>.</p>
+
+    <p>Image tag example:</p>
+    <img src="image.jpg" alt="Sample Image" width="150" height="150">
+
+    <h3>Unordered List</h3>
+    <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Orange</li>
+    </ul>
+
+    <h3>Ordered List</h3>
+    <ol>
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+    </ol>
+
+    <h3>Description List</h3>
     <dl>
-        <dt>What is html</dt>
-        <dd>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, incidunt.</dd>
-        <dt>What is html</dt>
-        <dd>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, incidunt.</dd>
-        <dt>What is html</dt>
-        <dd>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, incidunt.</dd>
+        <dt>HTML</dt>
+        <dd>- HyperText Markup Language</dd>
+        <dt>CSS</dt>
+        <dd>- Cascading Style Sheets</dd>
     </dl>
 
-    <ol>
+    <h3>HTML Table</h3>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Kamal</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>Nimal</td>
+            <td>30</td>
+        </tr>
+    </table>
 
-    </ol>
+    <h3>HTML Form</h3>
+    <form>
+        <label>Name:</label><br>
+        <input type="text" placeholder="Type your name here"><br><br>
+
+        <label>Password:</label><br>
+        <input type="password" placeholder="Password"><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female<br><br>
+
+        <label>Hobbies:</label><br>
+        <input type="checkbox"> Reading
+        <input type="checkbox"> Traveling<br><br>
+
+        <label>Select Country:</label><br>
+        <select>
+            <option>Sri Lanka</option>
+            <option>India</option>
+            <option>USA</option>
+        </select><br><br>
+
+        <label>Message:</label><br>
+        <textarea rows="4" cols="30" placeholder="Type your message..."></textarea><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <div style="background-color: yellow;">
+        This is a div tag used to group block elements.
+    </div>
+
+    <p>This is a <span style="color: red;">span tag</span> used for inline elements.</p>
 </body>
 
 </html>
